@@ -1,0 +1,15 @@
+
+
+mkdir pics stored deleted
+
+For the usb reset thing:
+
+gcc usbreset.c -ousbreset
+lsusb
+
+YOU MUST CHOOSE!!!
+
+chmod +x usbreset
+
+./usbreset /dev/bus/usb/002/017
+
