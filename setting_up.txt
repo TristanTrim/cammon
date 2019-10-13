@@ -2,14 +2,17 @@
 
 mkdir pics stored deleted
 
-For the usb reset thing:
+#For the usb reset thing:
 
 gcc usbreset.c -ousbreset
 lsusb
 
-YOU MUST CHOOSE!!!
 
 chmod +x usbreset
 
-./usbreset /dev/bus/usb/002/017
+echo YOU MUST CHOOSE!!!
+echo run:
+echo ./usbreset /dev/bus/usb/002/017
+echo ALSO:
+echo sudo chmod 777 /dev/bus/usb/002/017
 
